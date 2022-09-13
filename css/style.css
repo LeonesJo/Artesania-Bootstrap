@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+
+
+
+.bg-blue{
+    background-color: rgba(13, 58, 134, 0.9);
+    color: white;
+}
+
+h1,h2,h3,h4,h5{
+    color: rgb(0, 3, 202);
+    font-family: lobster;
+}
+
+
+.pie{
+    /* padding */
+    padding: 30px;
+    /* display flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.pie__icon--sm{
+    width: 35px;
+    padding: 6px;
+}
+
+.pie__titulo--md{
+    font-size: 1.5rem;
+}
