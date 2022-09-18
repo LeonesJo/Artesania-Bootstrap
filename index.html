@@ -9,21 +9,20 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Animation Wow -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- Mi CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        .nav-link{
-            color: white !important;
-        }
-    </style>
+    
 
     <title>Artesanias y Diseños</title>
   </head>
  
   <body>
     <!-- inicia nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(13, 58, 134, 0.9)">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="img/Artesanias y diseños LOGO.png" alt="log artesanias y diseños">
@@ -94,7 +93,7 @@
         <!-- inicio de cards -->
 
     <main class="py-3">
-        <div class="container-fluid">
+        <div class="container-fluid wow heartBeat">
             <div class="row">
                 <article class="col-md-6 col-lg-3 mb-3">
                     <div class="card">
@@ -165,6 +164,12 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- js wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
 
   </body>
 </html>
