@@ -8,11 +8,6 @@
     color: white;
 }
 
-ul li a:hover{
-    text-decoration: underline;
-    color: yellow;
-    animation-duration: 0.5s;
-}
 
 h1,h2,h3,h4,h5{
     color: rgb(0, 3, 202);
@@ -30,6 +25,16 @@ h1,h2,h3,h4,h5{
     flex-direction: column;
     
 }
+
+
+#botonera img{
+	width: 100px;
+}
+
+#botonera ul li a:hover{
+    color: yellow;
+}
+
 
 .pie__icon--sm{
     width: 35px;
@@ -50,6 +55,7 @@ h1,h2,h3,h4,h5{
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    border: solid 3px black;
    
 }
 
@@ -61,3 +67,7 @@ h1,h2,h3,h4,h5{
     width: 100%;
     
 }
+
+
+
+@media (min-whidth: 900px)
